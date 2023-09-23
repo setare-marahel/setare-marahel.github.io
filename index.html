@@ -1,13 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>resume</title>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <h1>hello im setareh</h1>
+
+        <div class="nav-bar">
+            <h2 class="nav-title">Setareh</h2>
+            <ul id="nav-menu" class="nav-menu">
+                <li><a id="about" href="#">About</a></li>
+                <li><a id="skills" href="#">Skills</a></li>
+                <li><a id="contact" href="#">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="container" id="container">
+
+        <section id="aboutPage" class="header-container">
+            <div class="banner">
+                <img  class="img"  src="image/Business Woman.jpg" alt="">
+            </div>
+            <div class="about-container">
+
+                <div class="introduction">
+                    <h1> hi , i`m setareh </h1>
+                    <h3>From 1400, I entered the computer field through the university
+                        I started with C and Java languages ​​in university , also learned ui/ux for a short period of time and now I am learning front-end
+                    </h3>
+                </div>
+
+                <div class="education">
+                    <h1>Education</h1>
+                    <h3>student of Computer Engineering, Persian Gulf University, Bushehr</h3>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="skills">
+            <h1>Skills</h1>
+            <div class="skills-container" id="skills-container">
+
+                <div class="item">
+                    <div>
+                        <img src="image/js.jpeg" alt="">
+                    </div>
+                    <span>java script</span>
+                </div>
+
+                <div class="item">
+                    <div>
+                        <img src="image/java.jpeg" alt="">
+                    </div>
+                    <span>java</span>
+                </div>
+
+                <div class="item">
+                    <div >
+                        <img src="image/katlin.jpg" alt="">
+                    </div>
+                    <span>katlin</span>
+                </div>
+
+                <div class="item">
+                    <div >
+                        <img src="image/c.svg" alt="">
+                    </div>
+                    <span>C</span>
+                </div>
+
+            </div>
+
+            <div class="skills-container" id="skills-container2">
+
+
+                    <div class="item">
+                        <div class="item">
+                            <img src="image/ux-ui.png" alt="">
+                        </div>
+                        <span>ui/ux</span>
+                    </div>
+
+                    <div class="item">
+                        <div>
+                            <img src="image/html.png" alt="">
+                        </div>
+                        <span>html</span>
+                    </div>
+
+                    <div class="item">
+                        <div>
+                            <img src="image/css.png" alt="">
+                        </div>
+                        <span>css</span>
+                    </div>
     
+                    <div class="item">
+                        <div>
+                            <img src="image/c.svg" alt="">
+                        </div>
+                        <span>C</span>
+                    </div>
+
+
+            </div>
+
+        </section>
+
+        <section class="contact">
+            <h1>Contact</h1>
+
+            <form action="" class="form-contact">
+                <div class="item-form">
+                    <label for="">Name :</label>
+                    <input id="name" type="text" >
+                </div>
+
+                <div class="item-form">
+                    <label for="">Email :</label>
+                    <input type="text" >
+                </div>
+
+                <div class="item-form" >
+                    <label for="">Message :</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+                </div>
+
+                <button class="button" type="submit">submit</button>
+
+            </form>
+        </section>
+
+
+      
+    </div>
+    <footer class="footer">
+        <div class="item-footer">
+            <span>
+                <i class="fa fa-phone"></i>
+            </span>
+            <a href="">09393296559</a>
+        </div>
+        <div class="item-footer">
+            <span>
+                <i class="fab fa-instagram"></i>
+            </span>
+            <a href="">_setareh.marahel</a>
+        </div>
+        <div class="item-footer">
+            <span>
+                <i class="fa fa-envelope"></i>
+            </span>
+            <a href="">setaremarahel@gmail.com</a>
+        </div>
+    </footer>
+    
+    <script src="project.js"></script>
 </body>
 </html>
