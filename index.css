@@ -1,0 +1,229 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 150px;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+   margin-top: -120px;
+}
+
+.header-container {
+    display: flex; 
+    align-items:flex-start; 
+    justify-content: space-between; 
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.divider {
+    height: 1px; 
+    background-color: #ccc; 
+    width: 100vw; 
+    margin-left: calc(-50vw + 50%); 
+    position: relative;
+    margin-top: 25px;
+}
+
+.featured-works {
+    text-align:left;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 70%;
+}
+
+.featured-works h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.featured-works p {
+    font-size: 18px;
+    color: #666;
+    
+}
+
+.work-item {
+    text-align:left;
+   
+    padding-bottom: 50px;
+    padding-left: 0px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto; 
+    
+}
+
+.text-container {
+    text-align: left; 
+    padding-right: 70%;
+}
+
+.work-item h2 {
+    font-size: 28px;
+    font-weight:400;
+}
+
+.work-item p {
+    font-size: 15px;
+    line-height: 2.5;
+    color: #959494;
+}
+
+.work-item3{
+    text-align:left;
+    padding-bottom: 50px;
+    padding-left: 0px;
+}
+.image-container3{
+    position: relative;
+}
+
+.image-container3 img {
+    width: 50%;
+    height: auto; 
+    display: block; 
+    
+}
+
+.work-item3 h2 {
+    font-size: 28px;
+    font-weight:400;
+}
+
+.work-item3 p {
+    font-size: 15px;
+    line-height: 2.5;
+    color: #959494;
+}
+
+
+
+
+.work-item2 {
+    text-align:right;
+    padding-bottom: 50px;
+    padding-left: 0px;
+}
+
+
+
+.image-container2 {
+    position: relative;
+    width: 100%; /* Takes up full width of its parent */
+    display: flex;
+    justify-content: flex-end; /* Aligns the pink square to the right */
+}
+
+.pink-square {
+    border-radius: 3px;
+    background-color: #FFC0CB; /* Pink color */
+    width: 50%; /* Takes up 50% of the container's width */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevents the image from overflowing */
+}
+
+.pink-square img {
+    max-width: 100%; /* Ensures the image is responsive */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.text-container2 {
+    text-align: left; /* Aligns text to the left */
+    padding-left: 50%; /* Adds some space between the image and text */
+}
+
+
+footer {
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+
+.logo-contact-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.logo img {
+    max-width: 50px; 
+    height: auto;
+}
+
+.contact {
+    text-align: left; 
+    margin-top: 10px; 
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+.contact h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.contact button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-nav {
+    text-align: right; 
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav ul li {
+    margin-bottom: 10px; 
+    padding-top: 10px;
+}
+
+.footer-nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
